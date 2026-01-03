@@ -4,8 +4,6 @@
 
 This project analyzes **household spending based on purchase receipts** to understand consumption patterns, category behavior, and the impact of **inflation in Colombia (2025–early 2026)**. Using cleaned receipt-level data, the analysis explores how prices and spending evolved over time and contrasts observed behavior with **economic theory** (mechanical inflation effect).
 
-The project is designed as a **portfolio-ready, reproducible analysis** suitable for data analyst roles.
-
 ---
 
 ## Research Questions
