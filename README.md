@@ -60,11 +60,11 @@ Key assumptions and methodological decisions are explicitly documented in the re
 ```
 ├── data/
 │ ├── raw/
-│ │ └── household_receipts_raw.xlsx
+│ │ └── household_goods_2025_raw.xlsx
 │ └── processed/
-│ └── household_spending_cleaned.xlsx
+│ └── household_goods_2025_cleaned.xlsx
 ├── docs/
-│ └── household_spending_analysis.pdf
+│ └── household_spending_patterns_under_inflation.pdf
 ├── README.md
 ```
 
