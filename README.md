@@ -27,11 +27,11 @@ This project analyzes **household spending based on purchase receipts** to under
 
 ## Methodology
 
-1. Data cleaning and standardization of product categories
-2. Inflation context integration (macro-level reference)
-3. Aggregation of spending by period and category
-4. Comparative analysis of nominal spending trends
-5. Interpretation using economic theory
+1. Manual data entry and validation of receipt-level purchases in spreadsheets
+2. Data cleaning and standardization of product categories using Excel / Google Sheets
+3. Aggregation of nominal spending by period and category
+4. Integration of inflation context as a theoretical benchmark
+5. Interpretation of observed trends using economic theory, with explicit assumptions and limitations
 
 ---
 
@@ -43,17 +43,15 @@ This project analyzes **household spending based on purchase receipts** to under
 
 ## Reproducibility
 
-All steps required to reproduce this analysis are documented. The repository includes:
+This project follows a spreadsheet-based reproducibility approach. All transformations, aggregations, and calculations were performed in Google Sheets and are reflected in the processed dataset.
 
-* Raw and cleaned datasets
-* Analysis notebooks
-* Clear assumptions and data processing logic
+To reproduce the analysis:
 
-To reproduce:
+1. Review the raw dataset in data/raw/
+2. Follow documented cleaning and categorization logic to obtain the processed dataset
+3. Review the analytical report in docs/, which references the cleaned data
 
-1. Clone the repository
-2. Install required dependencies
-3. Run notebooks in numerical order
+Key assumptions and methodological decisions are explicitly documented in the report.
 
 ---
 
@@ -61,25 +59,24 @@ To reproduce:
 
 ```
 ├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   └── 03_insights_and_conclusions.ipynb
-├── visuals/
+│ ├── raw/
+│ │ └── household_receipts_raw.xlsx
+│ └── processed/
+│ └── household_spending_cleaned.xlsx
+├── docs/
+│ └── household_spending_analysis.pdf
 ├── README.md
-└── requirements.txt
 ```
 
 ---
 
 ## Tools & Skills
 
+* Microsoft Excel / Google Sheets
 * Data cleaning & validation
-* Exploratory data analysis
-* Economic reasoning
-* Documentation & reproducibility
+* Descriptive analysis and aggregation
+* Economic reasoning (inflation & consumer behavior)
+* Documentation & analytical reporting
 
 ---
 
